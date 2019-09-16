@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  font-weight: 800;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("/RPG-Game/assets/images/Background.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/RPG-Game/assets/images/Background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Bold", sans-serif;
+  font-size: 4.5em;
+  margin: 15px 0px 0px 100px;
+  text-transform: uppercase;
+  color: azure;
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 3.5em;
+  }
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 50px 0px 30px 30px;
+  color: azure;
+}
+
+@media screen and (max-width: 420px) {
+  h3 {
+    font-size: 1em;
+  }
+}
+
+p {
+  text-align: center;
+  font-size: 1em;
+  margin: 5px 0px 5px 0px;
+  color: azure;
+}
+
+.buttons-heroes {
+  margin: 0px 0px 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.buttons-villains {
+  margin: 30px 0px 0px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media screen and (max-width: 420px) {
+  .images {
+    height: 80%;
+    margin-left: 5px;
+  }
+}
+
+.images:hover {
+  cursor: pointer;
+  -webkit-transform: translatey(-3px);
+          transform: translatey(-3px);
+  -webkit-filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.4));
+}
+
+.images:active {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.4));
+}
+/*# sourceMappingURL=style.css.map */
