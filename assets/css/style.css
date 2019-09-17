@@ -14,7 +14,7 @@ body {
   font-family: Impact, Haettenschweiler, "Arial Bold", sans-serif;
   font-size: 4.5em;
   letter-spacing: 3px;
-  margin: 15px 0px 20px 100px;
+  margin: 15px 0px 20px 80px;
   text-transform: uppercase;
 }
 
@@ -71,8 +71,8 @@ p {
   visibility: hidden;
 }
 
-.hero-area,
-.villain-area {
+.heroArea,
+.villainArea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,9 +110,9 @@ p {
           transform: translatey(-1.7px);
   -webkit-filter: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.4));
   filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.4));
-  background-color: #cf0404;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .attack-button:active {
@@ -120,7 +120,7 @@ p {
           transform: translateY(-0.2px);
   -webkit-filter: drop-shadow(0 5px 4px rgba(0, 0, 0, 0.4));
   filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.4));
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
   -webkit-transition: 0s;
   transition: 0s;
 }
