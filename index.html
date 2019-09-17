@@ -14,21 +14,25 @@
           type="text/javascript"
         ></script>
       </head>
-      <body onload="startNewRound()">
+      <body>
         <div class="title"><h1>Star Wars RPG</h1></div>
-        <div class="character"><h3>Pick Your Character</h3></div>
         <div class="buttons-heroes">
-          <div class="button1 button" value=""><p>Luke Skywalker</p><img class="images" src="/RPG-Game/assets/images/Luke-Skywalker.png"></img><p>200</p></div>
-          <div class="button2 button" value=""><p>Chewbacca</p><img class="images" src="/RPG-Game/assets/images/Chewbacca.png"></img><p>160</p></div>
-          <div class="button3 button" value=""><p>Han Solo</p><img class="images" src="/RPG-Game/assets/images/Han-Solo.png"></img><p>170</p></div>
-          <div class="button4 button" value=""><p>Yoda</p><img class="images" src="/RPG-Game/assets/images/Yoda.png"></img><p>220</p></div>
+          <div class="button1 hero button" value=""><p>Luke Skywalker</p><img class="images" src="/RPG-Game/assets/images/Luke-Skywalker.png"></img><p id="luke">200</p></div>
+          <div class="button2 hero button" value=""><p>Chewbacca</p><img class="images" src="/RPG-Game/assets/images/Chewbacca.png"></img><p>160</p></div>
+          <div class="button3 hero button" value=""><p>Han Solo</p><img class="images" src="/RPG-Game/assets/images/Han-Solo.png"></img><p>170</p></div>
+          <div class="button4 hero button" value=""><p>Yoda</p><img class="images" src="/RPG-Game/assets/images/Yoda.png"></img><p>220</p></div>
           </div>
           <div class="buttons-villains">
-            <div class="button5 button" value=""><p>Luke Skywalker</p><img class="images" src="/RPG-Game/assets/images/Darth-Vader.png"></img><p>200</p></div>
-            <div class="button6 button" value=""><p>Darth Vader</p><img class="images" src="/RPG-Game/assets/images/Jabba-the-Hutt.png"></img><p>150</p></div>
-            <div class="button7 button" value=""><p>Sheev Palpatine</p><img class="images" src="/RPG-Game/assets/images/Sheev-Palpatine.png"></img><p>250</p></div>
-            <div class="button8 button" value=""><p>Boba Fett</p><img class="images" src="/RPG-Game/assets/images/Boba-Fett.png"></img><p>175</p></div>
+            <div class="button5 villain button" value=""><p>Darth Vader</p><img class="images" src="/RPG-Game/assets/images/Darth-Vader.png"></img><p id="vader">200</p></div>
+            <div class="button6 villain button" value=""><p>Jabba The Hutt</p><img class="images" src="/RPG-Game/assets/images/Jabba-the-Hutt.png"></img><p>150</p></div>
+            <div class="button7 villain button" value=""><p>Sheev Palpatine</p><img class="images" src="/RPG-Game/assets/images/Sheev-Palpatine.png"></img><p>250</p></div>
+            <div class="button8 villain button" value=""><p>Boba Fett</p><img class="images" src="/RPG-Game/assets/images/Boba-Fett.png"></img><p>175</p></div>
             </div>
+            <div class="battle-arena"><p>Battle Arena</p></div>
+          <div class="hero-area"></div>
+          <div class="vs"><p>Vs</p></div>
+          <div class="villain-area"></div>
+            <button class = "attack-button" type="button">Attack!</button>
         <script type="text/javascript" src="assets/javascript/game.js"></script>
       </body>
     </html>
